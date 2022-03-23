@@ -16,6 +16,7 @@ public class Cinema {
     @JsonProperty("available_seats")
     private List<Seat> availableSeats;
 
+
     public Cinema(int totalRows, int totalColumns){
         this.totalRows = totalRows;
         this.totalColumns = totalColumns;
